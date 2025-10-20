@@ -3,16 +3,17 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Página Animada — Ejemplo Mejorado</title>
+  <title>Portafolio — Luis Daniel Bahena Zagal</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="logo" href="#">MiPágina</a>
+      <a class="logo" href="#">Luis Daniel</a>
       <nav class="nav" id="nav">
-        <a href="#features">Características</a>
+        <a href="#about">Sobre mí</a>
         <a href="#projects">Proyectos</a>
+        <a href="#skills">Habilidades</a>
         <a href="#contact">Contacto</a>
       </nav>
       <button id="menuToggle" class="menu-toggle" aria-expanded="false" aria-controls="nav">☰</button>
@@ -22,8 +23,8 @@
   <main>
     <section class="hero">
       <div class="container hero-inner">
-        <h1 class="hero-title">Diseños limpios. Animaciones sutiles.</h1>
-        <p class="hero-sub">Una página ejemplo mejorada con transiciones, reveal al hacer scroll y microinteracciones.</p>
+        <h1 class="hero-title">Luis Daniel Bahena Zagal</h1>
+        <p class="hero-sub">Ingeniero Industrial con pasión por la tecnología, el arte y la mejora continua.</p>
         <div class="hero-cta">
           <a class="btn primary" href="#projects">Ver proyectos</a>
           <a class="btn ghost" href="#contact">Contáctame</a>
@@ -32,50 +33,67 @@
       <div class="hero-decor" aria-hidden="true"></div>
     </section>
 
-    <section id="features" class="features container">
-      <h2 class="section-title">Características</h2>
+    <section id="about" class="container reveal">
+      <h2 class="section-title">Sobre mí</h2>
+      <p>
+        Soy un estudiante de Ingeniería Industrial en la Universidad Politécnica del Estado de Morelos. 
+        Me considero una persona proactiva, meticulosa y autodidacta, con gran interés en combinar 
+        lo técnico con lo creativo. Me apasiona el diseño, la automatización y la mejora continua de procesos.
+      </p>
+    </section>
+
+    <section id="skills" class="features container">
+      <h2 class="section-title">Habilidades</h2>
       <div class="grid">
         <article class="card reveal">
-          <h3>Animaciones CSS</h3>
-          <p>Transiciones y keyframes para mejorar la experiencia sin distraer.</p>
+          <h3>Programación</h3>
+          <p>Experiencia con Python, PHP, JavaScript y C.</p>
         </article>
         <article class="card reveal">
-          <h3>Reveal al hacer scroll</h3>
-          <p>Los elementos aparecen suavemente cuando entran en el viewport.</p>
+          <h3>Diseño y Modelado</h3>
+          <p>SolidWorks, AutoCAD, FreeCAD, Sweet Home 3D y OPENSCAD.</p>
         </article>
         <article class="card reveal">
-          <h3>Interacción accesible</h3>
-          <p>Respeta preferencia por reducir movimiento y tiene enfoque visible.</p>
+          <h3>Análisis y Automatización</h3>
+          <p>Excel avanzado, Power BI y automatización de procesos ofimáticos.</p>
+        </article>
+        <article class="card reveal">
+          <h3>Creatividad</h3>
+          <p>Amplio interés en el arte, dibujo, pintura y diseño visual.</p>
         </article>
       </div>
     </section>
 
     <section id="projects" class="projects container">
-      <h2 class="section-title">Proyectos</h2>
+      <h2 class="section-title">Proyectos destacados</h2>
       <div class="projects-grid">
         <div class="project-card reveal">
-          <div class="thumb" style="background-image:url('https://picsum.photos/seed/p1/600/400')"></div>
-          <h4>Proyecto A</h4>
-          <p>Una tarjeta con hover animado y sombreado.</p>
-          <a class="btn small" href="#">Ver</a>
+          <div class="thumb" style="background-image:url('https://picsum.photos/seed/5s/600/400')"></div>
+          <h4>Implementación de metodología 5S</h4>
+          <p>Proyecto de mejora continua para optimizar el área de trabajo en MACETÓN®.</p>
         </div>
         <div class="project-card reveal">
-          <div class="thumb" style="background-image:url('https://picsum.photos/seed/p2/600/400')"></div>
-          <h4>Proyecto B</h4>
-          <p>Animaciones sutiles y accesibles.</p>
-          <a class="btn small" href="#">Ver</a>
+          <div class="thumb" style="background-image:url('https://picsum.photos/seed/ventas/600/400')"></div>
+          <h4>Pronóstico de ventas en línea</h4>
+          <p>Desarrollo de modelo de pronóstico de ventas para Mercado Libre en MACETÓN®.</p>
         </div>
         <div class="project-card reveal">
-          <div class="thumb" style="background-image:url('https://picsum.photos/seed/p3/600/400')"></div>
-          <h4>Proyecto C</h4>
-          <p>Soporta dispositivos móviles y escritorio.</p>
-          <a class="btn small" href="#">Ver</a>
+          <div class="thumb" style="background-image:url('https://picsum.photos/seed/sekisui/600/400')"></div>
+          <h4>Diseño de área de almacenamiento</h4>
+          <p>Diseño de almacén temporal para optimizar localización y reducir desperdicios en SEKISUI S-LEC MÉXICO.</p>
         </div>
       </div>
     </section>
 
     <section id="contact" class="contact container reveal">
       <h2 class="section-title">Contacto</h2>
+      <p>Puedes ponerte en contacto conmigo a través de los siguientes medios:</p>
+      <ul>
+        <li>📧 <a href="mailto:BZLO210931@upemor.edu.mx">BZLO210931@upemor.edu.mx</a></li>
+        <li>📱 777 979 1330</li>
+        <li>📍 Cuernavaca, Morelos, México</li>
+        <li>💻 <a href="https://github.com/Luisdaniel1909" target="_blank">github.com/Luisdaniel1909</a></li>
+      </ul>
       <form class="contact-form" action="#" onsubmit="return false;">
         <label>
           Nombre
@@ -98,7 +116,7 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>© 2025 MiPágina — Animaciones de ejemplo</p>
+      <p>© 2025 Luis Daniel Bahena Zagal — Portafolio personal</p>
     </div>
   </footer>
 
