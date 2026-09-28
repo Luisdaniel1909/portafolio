@@ -1,166 +1,90 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Portafolio — Luis Daniel Bahena Zagal</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Luis Daniel Bahena Zagal — Ingeniero Industrial</title>
+  <meta name="description" content="Portafolio de Luis Daniel Bahena Zagal: automatización, integración de sistemas y mejora continua.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="logo" href="#">Luis Daniel</a>
-      <nav class="nav" id="nav">
-        <a href="#about">Sobre mí</a>
-        <a href="#projects">Proyectos</a>
-        <a href="#skills">Habilidades</a>
-        <a href="#certificates">Certificados</a>
-        <a href="#contact">Contacto</a>
-      </nav>
-      <button id="menuToggle" class="menu-toggle" aria-expanded="false" aria-controls="nav">☰</button>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="#inicio">Luis Daniel Bahena</a>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">Menú</button>
+      <nav class="nav" id="nav" aria-label="Principal"></nav>
     </div>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="container hero-inner">
-        <h1 class="hero-title">Luis Daniel Bahena Zagal</h1>
-        <p class="hero-sub">Ingeniero Industrial apasionado por la eficiencia, la automatización y la integración de sistemas.</p>
-        <div class="hero-cta">
-          <a class="btn primary" href="#projects">Ver proyectos</a>
-          <a class="btn ghost" href="#contact">Contáctame</a>
+    <section class="hero" id="inicio">
+      <div class="wrap hero-grid">
+        <div class="hero-text">
+          <p class="hero-role">Ingeniero Industrial · Décimo cuatrimestre, UPEMOR</p>
+          <h1>Luis Daniel Bahena Zagal</h1>
+          <p class="hero-lead">Automatizo procesos y conecto sistemas para que el trabajo repetitivo se haga solo.</p>
+          <div class="hero-actions">
+            <a class="btn solid" href="#proyectos">Ver proyectos</a>
+            <a class="btn line" href="#contacto">Contactar</a>
+          </div>
         </div>
+        <figure class="hero-figure">
+          <img src="1.PNG" alt="Luis Daniel Bahena Zagal" onerror="this.parentElement.remove()">
+        </figure>
       </div>
-      <div class="hero-decor" aria-hidden="true"></div>
+      <div class="stripe" aria-hidden="true"></div>
     </section>
 
-    <section id="about" class="container reveal">
-      <h2 class="section-title">Sobre mí</h2>
-      <p style="text-align: justify;">
-        Soy estudiante de Ingeniería Industrial en la Universidad Politécnica del Estado de Morelos, actualmente cursando el décimo cuatrimestre. A lo largo de mi formación he desarrollado un fuerte interés por la automatización de procesos, la integración de herramientas digitales y la mejora continua dentro de entornos productivos.
-        Me considero una persona proactiva, meticulosa y autodidacta, con una inclinación natural por analizar, optimizar y simplificar tareas mediante el uso de la tecnología. Disfruto crear soluciones prácticas que reduzcan el trabajo repetitivo y aumenten la eficiencia, ya sea a través de macros, hojas de cálculo automatizadas, o sistemas desarrollados con lenguajes como Python o PHP.
-        Mi meta es continuar especializándome en la automatización industrial y administrativa, aplicando mi creatividad e ingenio técnico para diseñar procesos más inteligentes, conectados y sostenibles que impulsen la productividad y la innovación en las empresas.
-      </p>
-    </section>
-
-    <section id="skills" class="features container">
-      <h2 class="section-title">Habilidades</h2>
-      <div class="grid">
-        <article class="card reveal">
-          <h3>Programación</h3>
-          <p>Experiencia con Python, PHP, JavaScript y C.</p>
-        </article>
-        <article class="card reveal">
-          <h3>Diseño y Modelado</h3>
-          <p>SolidWorks, AutoCAD, FreeCAD, Blender, Sweet Home 3D y OPENSCAD.</p>
-        </article>
-        <article class="card reveal">
-          <h3>Análisis y Automatización</h3>
-          <p>Excel avanzado, Power BI y automatización de procesos ofimáticos.</p>
-        </article>
-        <article class="card reveal">
-          <h3>Aptitutes</h3>
-          <p>●	Trabajo en equipo
-●	Iniciativa
-●	Resolución de problemas
-●	Gran creatividad
-</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="projects" class="projects container">
-      <h2 class="section-title">Proyectos destacados</h2>
-      <div class="projects-grid">
-        <div class="project-card reveal">
-          <div class="thumb" style="background-image:url('2.png')"></div>
-          <h4>Implementación de metodología 5S</h4>
-          <p>Proyecto de mejora continua para optimizar el área de trabajo en la empresa MACETÓN®.</p>
-        </div>
-        <div class="project-card reveal">
-          <div class="thumb" style="background-image:url('4.png')"></div>
-          <h4>Pronóstico de ventas en línea</h4>
-          <p>Desarrollo de modelo de pronóstico de ventas para Mercado Libre en la empresa MACETÓN®.</p>
-        </div>
-        <div class="project-card reveal">
-          <div class="thumb" style="background-image:url('3.PNG')"></div>
-          <h4>Diseño de área de almacenamiento</h4>
-          <p>Diseño de almacén temporal para optimizar localización y reducir desperdicios en SEKISUI S-LEC MÉXICO.</p>
-        </div>
-
-        <!-- Nuevos proyectos -->
-        <div class="project-card reveal">
-          <div class="thumb" style="background-image:url('2180.jpg')"></div>
-          <h4>Sistema de control de formularios ADFS</h4>
-          <p>Desarrollo de una aplicación en Android Studio conectada a Firebase® para automatizar registros dentro del almacén-producción.</p>
-        </div>
-        <div class="project-card reveal">
-          <div class="thumb" style="background-image:url('7.PNG')"></div>
-          <h4>Sistema de Gestión de Almacenes WIOMS</h4>
-          <p>Desarrollo del programa para agregar ubicaciones a productos con vista 3D dentro del almacén en SEKISUI S-LEC MÉXICO.</p>
-        </div>
-        <div class="project-card reveal">
-          <div class="thumb" style="background-image:url('14.PNG')"></div>
-          <h4>Generador de cartas de instrucciones</h4>
-          <p>Programa de apoyo para la generación de cartas de intrucciones para envíos de producto en SEKISUI S-LEC MÉXICO.</p>
+    <section class="block" id="sobre-mi" data-nav="Sobre mí">
+      <div class="wrap block-grid">
+        <h2>Sobre mí</h2>
+        <div class="prose">
+          <p>Soy estudiante de Ingeniería Industrial en la Universidad Politécnica del Estado de Morelos, actualmente en el décimo cuatrimestre. Durante mi formación me interesé por la automatización de procesos, la integración de herramientas digitales y la mejora continua en entornos productivos.</p>
+          <p>Soy proactivo, meticuloso y autodidacta. Me gusta analizar una tarea, encontrar dónde se pierde tiempo y simplificarla con tecnología: macros, hojas de cálculo automatizadas o sistemas hechos en Python y PHP.</p>
+          <p>Mi meta es especializarme en automatización industrial y administrativa, y diseñar procesos más inteligentes, conectados y sostenibles que aumenten la productividad de las empresas.</p>
         </div>
       </div>
     </section>
 
-    <section id="certificates" class="certificates container reveal">
-      <h2 class="section-title">Certificados</h2>
-      <p>A continuación se muestran algunos de mis certificados en PDF:</p>
-      <center><div class="certificates-grid">
-        <div class="certificate-card reveal">
-          <h4>Fundamentos de la contabilidad</h4>
-          <a href="cert1.pdf" target="_blank" class="btn ghost" style="background: #7f070766;">Ver PDF</a>
-        </div>
-        <div class="certificate-card reveal">
-          <h4>Fundamentos de la gestión de proyectos</h4>
-          <a href="cert2.pdf" target="_blank" class="btn ghost" style="background: #7f070766;">Ver PDF</a>
-        </div>
-        <div class="certificate-card reveal">
-          <h4>Fundamentos de ChatGPT</h4>
-          <a href="cert3.pdf" target="_blank" class="btn ghost" style="background: #7f070766;">Ver PDF</a>
-        </div></center>
+    <section class="block" id="proyectos" data-nav="Proyectos">
+      <div class="wrap block-grid">
+        <h2>Proyectos</h2>
+        <div class="projects" id="projectsList"></div>
       </div>
     </section>
 
-    <section id="contact" class="contact container reveal">
-      <h2 class="section-title">Contacto</h2>
-      <p>Puedes ponerte en contacto conmigo a través de los siguientes medios:</p>
-      <ul>
-        <li>📧 <a href="mailto:BZLO210931@upemor.edu.mx">BZLO210931@upemor.edu.mx</a></li>
-        <li>📱 777 979 1330</li>
-        <li>📍 Cuernavaca, Morelos, México</li>
-        <li>💻 <a href="https://github.com/Luisdaniel1909" target="_blank">github.com/Luisdaniel1909</a></li>
-      </ul>
-      <form class="contact-form" action="#" onsubmit="return false;">
-        <label>
-          Nombre
-          <input type="text" name="name" required>
-        </label>
-        <label>
-          Email
-          <input type="email" name="email" required>
-        </label>
-        <label>
-          Mensaje
-          <textarea name="message" rows="4" required></textarea>
-        </label>
-        <div class="form-actions">
-          <button class="btn primary" type="submit">Enviar</button>
-        </div>
-      </form>
+    <section class="block" id="habilidades" data-nav="Habilidades">
+      <div class="wrap block-grid">
+        <h2>Habilidades</h2>
+        <dl class="skills" id="skillsList"></dl>
+      </div>
+    </section>
+
+    <section class="block" id="certificados" data-nav="Certificados">
+      <div class="wrap block-grid">
+        <h2>Certificados</h2>
+        <ul class="certs" id="certsList"></ul>
+      </div>
+    </section>
+
+    <section class="block" id="contacto" data-nav="Contacto">
+      <div class="wrap block-grid">
+        <h2>Contacto</h2>
+        <ul class="contact" id="contactList"></ul>
+      </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p>© 2025 Luis Daniel Bahena Zagal — Portafolio personal</p>
+  <footer class="footer">
+    <div class="wrap">
+      <p>© <span id="year">2025</span> Luis Daniel Bahena Zagal</p>
     </div>
   </footer>
 
+  <script src="data.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
