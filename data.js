@@ -46,7 +46,7 @@ const portfolio = {
   ],
 
   contact: [
-    { label: "Correo", text: "BZLO210931@upemor.edu.mx", href: "mailto:BZLO210931@upemor.edu.mx" },
+    { label: "Correo", text: "daniel56789nuevo@gmail.com", href: "mailto:daniel56789nuevo@gmail.com" },
     { label: "Teléfono", text: "777 979 1330", href: "tel:+527779791330" },
     { label: "GitHub", text: "github.com/Luisdaniel1909", href: "https://github.com/Luisdaniel1909" },
     { label: "Ubicación", text: "Cuernavaca, Morelos, México" }
