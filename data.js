@@ -1,7 +1,7 @@
 const portfolio = {
 projects: [
 {
-image: "healthbin.png",
+image: "healthbin.jpg",
 title: "Health-Bin — Soluciones electrónicas e IoT",
 text: "Emprendimiento propio enfocado en el desarrollo de soluciones electrónicas y sistemas a medida, integrando ESP32, sensores, tecnologías IoT, programación y diseño 3D para empresas y proyectos personales."
 },
