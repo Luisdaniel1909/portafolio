@@ -1,36 +1,43 @@
 const portfolio = {
-  projects: [
-    {
-      image: "2.png",
-      title: "Implementación de metodología 5S",
-      text: "Proyecto de mejora continua para optimizar el área de trabajo en la empresa MACETÓN®."
-    },
-    {
-      image: "4.png",
-      title: "Pronóstico de ventas en línea",
-      text: "Modelo de pronóstico de ventas para Mercado Libre en la empresa MACETÓN®."
-    },
-    {
-      image: "3.PNG",
-      title: "Diseño de área de almacenamiento",
-      text: "Almacén temporal diseñado para optimizar la localización y reducir desperdicios en SEKISUI S-LEC MÉXICO."
-    },
-    {
-      image: "2180.jpg",
-      title: "Sistema de control de formularios ADFS",
-      text: "Aplicación en Android Studio conectada a Firebase® para automatizar registros dentro del almacén-producción."
-    },
-    {
-      image: "7.PNG",
-      title: "Sistema de Gestión de Almacenes WIOMS",
-      text: "Programa para asignar ubicaciones a productos, con vista 3D del almacén en SEKISUI S-LEC MÉXICO."
-    },
-    {
-      image: "14.PNG",
-      title: "Generador de cartas de instrucciones",
-      text: "Programa de apoyo para generar las cartas de instrucciones de envíos de producto en SEKISUI S-LEC MÉXICO."
-    }
-  ],
+projects: [
+{
+image: "healthbin.png",
+title: "Health-Bin — Soluciones electrónicas e IoT",
+text: "Emprendimiento propio enfocado en el desarrollo de soluciones electrónicas y sistemas a medida, integrando ESP32, sensores, tecnologías IoT, programación y diseño 3D para empresas y proyectos personales."
+},
+{
+image: "2.png",
+title: "Implementación de metodología 5S",
+text: "Proyecto de mejora continua para optimizar la organización y las condiciones de trabajo en la empresa MACETÓN®."
+},
+{
+image: "4.png",
+title: "Pronóstico de ventas en línea",
+text: "Modelo de pronóstico de ventas desarrollado para analizar y estimar el comportamiento de ventas en Mercado Libre para la empresa MACETÓN®."
+},
+{
+image: "3.PNG",
+title: "Diseño de área de almacenamiento",
+text: "Diseño de un almacén temporal para optimizar la localización de materiales y reducir desperdicios en SEKISUI S-LEC MÉXICO."
+},
+{
+image: "2180.jpg",
+title: "Sistema de control de formularios ADFS",
+text: "Aplicación desarrollada en Android Studio e integrada con Firebase® para automatizar el registro y control de información dentro del área de almacén-producción."
+},
+{
+image: "7.PNG",
+title: "Sistema de Gestión de Almacenes WIOMS",
+text: "Sistema para asignar ubicaciones a productos y visualizar la distribución del almacén mediante una representación 3D en SEKISUI S-LEC MÉXICO."
+},
+{
+image: "14.PNG",
+title: "Generador de cartas de instrucciones",
+text: "Herramienta desarrollada para agilizar la generación de cartas de instrucciones para el envío de producto en SEKISUI S-LEC MÉXICO."
+}
+],
+};
+
 
 skills: [
 {
