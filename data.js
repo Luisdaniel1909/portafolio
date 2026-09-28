@@ -32,12 +32,37 @@ const portfolio = {
     }
   ],
 
-  skills: [
-    { title: "Programación", items: ["Python", "PHP", "JavaScript", "C"] },
-    { title: "Diseño y modelado", items: ["SolidWorks", "AutoCAD", "FreeCAD", "Blender", "Sweet Home 3D", "OpenSCAD"] },
-    { title: "Análisis y automatización", items: ["Excel avanzado", "Power BI", "Automatización de procesos ofimáticos"] },
-    { title: "Aptitudes", items: ["Trabajo en equipo", "Iniciativa", "Resolución de problemas", "Creatividad"] }
-  ],
+skills: [
+{
+title: "Programación",
+items: ["Python", "PHP", "JavaScript", "C", "Desarrollo de sistemas a medida"]
+},
+{
+title: "Automatización y análisis",
+items: ["Excel avanzado (Macros/VBA)", "Power BI", "Automatización de procesos", "Análisis de datos"]
+},
+{
+title: "Diseño y modelado 3D",
+items: ["SolidWorks", "AutoCAD", "FreeCAD", "Blender", "OpenSCAD", "Modelado 3D paramétrico (STEP/DWG)"]
+},
+{
+title: "Electrónica e IoT",
+items: ["ESP32", "Sensores y módulos IoT", "Programación de microcontroladores", "Integración de hardware", "Instalación y configuración en sitio"]
+},
+{
+title: "Sistemas y herramientas",
+items: ["SAP MM (S/4HANA)", "ERP / WMS", "FlexSim"]
+},
+{
+title: "Logística y operaciones",
+items: ["Control de inventarios (PEPS/FIFO)", "Auditorías y prevención de pérdidas", "5S y Layouts logísticos", "Análisis de rutas y Cartas Porte", "Cierres de caja y facturación"]
+},
+{
+title: "Aptitudes",
+items: ["Trabajo en equipo", "Iniciativa", "Resolución de problemas", "Creatividad", "Liderazgo", "Emprendimiento"]
+}
+],
+
 
   certificates: [
     { title: "Fundamentos de la contabilidad", file: "cert1.pdf" },
