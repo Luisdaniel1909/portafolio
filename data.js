@@ -44,9 +44,9 @@ const portfolio = {
     { title: "Fundamentos de la gestión de proyectos", file: "cert2.pdf" },
     { title: "Fundamentos de ChatGPT", file: "cert3.pdf" },
     { title: "Logistica y cadena de suministro", file: "cert4.png" },
-    { title: "Logistica y cadena de suministro", file: "cert5.png" },
+    { title: "Almacenes desde cero: diseño básico , ubicaciones, picking y buenas prácticas operativas", file: "cert5.png" },
     { title: "Logistica y cadena de suministro", file: "cert6.png" },
-    { title: "Logistica y cadena de suministro", file: "cert7.png" }
+    { title: "Gestión de almacenes e inventarios", file: "cert7.png" }
   ],
 
   contact: [
