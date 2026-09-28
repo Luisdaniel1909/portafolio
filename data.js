@@ -42,7 +42,8 @@ const portfolio = {
   certificates: [
     { title: "Fundamentos de la contabilidad", file: "cert1.pdf" },
     { title: "Fundamentos de la gestión de proyectos", file: "cert2.pdf" },
-    { title: "Fundamentos de ChatGPT", file: "cert3.pdf" }
+    { title: "Fundamentos de ChatGPT", file: "cert3.pdf" },
+    { title: "Fundamentos de ChatGPT", file: "cert4.pdf" }
   ],
 
   contact: [
