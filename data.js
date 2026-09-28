@@ -34,9 +34,9 @@ text: "Sistema para asignar ubicaciones a productos y visualizar la distribució
 image: "14.PNG",
 title: "Generador de cartas de instrucciones",
 text: "Herramienta desarrollada para agilizar la generación de cartas de instrucciones para el envío de producto en SEKISUI S-LEC MÉXICO."
-}
-],
-};
+    }
+  ],
+
 
 
 skills: [
