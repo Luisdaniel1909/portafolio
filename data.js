@@ -43,7 +43,10 @@ const portfolio = {
     { title: "Fundamentos de la contabilidad", file: "cert1.pdf" },
     { title: "Fundamentos de la gestión de proyectos", file: "cert2.pdf" },
     { title: "Fundamentos de ChatGPT", file: "cert3.pdf" },
-    { title: "Logistica y cadena de suministro", file: "cert4.png" }
+    { title: "Logistica y cadena de suministro", file: "cert4.png" },
+    { title: "Logistica y cadena de suministro", file: "cert5.png" },
+    { title: "Logistica y cadena de suministro", file: "cert6.png" },
+    { title: "Logistica y cadena de suministro", file: "cert7.png" }
   ],
 
   contact: [
